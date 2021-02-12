@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Извлечь символ с середины строки, если длина строки чётная, то два символа с средены
+<script>
+function getMiddle(str) {
+    return str.substr((Math.ceil(str.length / 2) - 1), (2 - str.length % 2))
+}
+console.log(getMiddle('kottok'))
+</script>
+</body>
+</html>

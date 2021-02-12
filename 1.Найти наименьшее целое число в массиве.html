@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Найти наименьшее целое число в массиве
+<script>
+
+    let x = [34, -345, -1, 100]
+
+    class SmallestIntegerFinder {
+        constructor(args) {
+            this.args = args
+        }
+
+        findSmallestInt() {
+            let number = this.args[0]
+            for (let i = 0; i < this.args.length; i++) {
+               if (number > this.args[i]) {
+                   number = this.args[i]
+               }
+            }
+            return number
+        }
+    }
+    console.log(new SmallestIntegerFinder(x).findSmallestInt())
+</script>
+
+</body>
+</html>

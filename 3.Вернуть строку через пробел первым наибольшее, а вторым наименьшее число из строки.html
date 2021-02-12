@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Вернуть строку через пробел первым наибольшее, а вторым наименьшее число из строки
+<script>
+    function highAndLow(numbers){
+        const arr = numbers.split(' ');
+        let min = Math.min(...arr)
+        let max = Math.max(...arr)
+        let str = `${max} ${min}`
+        return str
+    }
+
+    let x = highAndLow("1 2 3 4 -5")
+    console.log(x)
+</script>
+
+</body>
+</html>
