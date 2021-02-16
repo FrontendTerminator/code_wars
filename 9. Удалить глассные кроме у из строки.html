@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function disemvowel(str) {
+        let string = ""
+        for(let i = 0; i < str.length; i++) {
+            if (str[i] !== "a" && str[i] !== "e" && str[i] !== "i" && str[i] !== "o" && str[i] !== "u"
+                && str[i] !== "A" && str[i] !== "E" && str[i] !== "I" && str[i] !== "O" && str[i] !== "U") {
+                string += str[i]
+            }
+        }
+        return string
+    }
+
+    console.log(disemvowel("This website is for losers LOL!"))
+</script>
+</body>
+</html>
