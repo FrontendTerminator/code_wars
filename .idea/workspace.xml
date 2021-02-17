@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28150364-7fc1-4fe7-a748-7dc8776ef796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9. Удалить глассные кроме у из строки.html" afterDir="false" />
+    <list default="true" id="28150364-7fc1-4fe7-a748-7dc8776ef796" name="Default Changelist" comment="9">
+      <change afterPath="$PROJECT_DIR$/10. Получить число и вернуть его в порядке убывания.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,8 @@
       <workItem from="1613249501351" duration="580000" />
       <workItem from="1613284891939" duration="608000" />
       <workItem from="1613401823630" duration="1244000" />
-      <workItem from="1613503964787" duration="821000" />
+      <workItem from="1613503964787" duration="948000" />
+      <workItem from="1613592994866" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="5">
       <created>1613249781461</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613404618288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="9">
+      <created>1613504913726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613504913726</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +98,7 @@
     <MESSAGE value="5" />
     <MESSAGE value="7" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="9" />
+    <option name="LAST_COMMIT_MESSAGE" value="9" />
   </component>
 </project>

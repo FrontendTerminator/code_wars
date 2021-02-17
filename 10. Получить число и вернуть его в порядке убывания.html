@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Получить целое число и вернуть его в порядке убывания
+<script>
+    function descendingOrder(n){
+        let result
+        let string = String(n)
+        let arr = string.split("")
+        let arrNumbers = arr.map(n => Number(n))
+        result = Number(arrNumbers.sort(function (a,b){
+            return b - a
+        }).join(""))
+        return result
+    }
+
+    let x = descendingOrder(34512)
+    console.log(x)
+</script>
+</body>
+</html>
