@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function XO(str) {
+        let arr = str.toLowerCase().split("")
+        let x = arr.filter(l => l === "x")
+        let o = arr.filter(l => l === "o")
+
+        return x.length === o.length
+    }
+
+    console.log(XO("OoXxoXsafsafsaO"))
+</script>
+</body>
+</html>

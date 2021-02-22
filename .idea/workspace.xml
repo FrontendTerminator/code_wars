@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28150364-7fc1-4fe7-a748-7dc8776ef796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11. Является ли число квадратным.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13. Проверьте, есть ли в строке одинаковое количество символов «x» и «o».html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,8 @@
       <workItem from="1613639023124" duration="17000" />
       <workItem from="1613763266007" duration="746000" />
       <workItem from="1613806645557" duration="88000" />
-      <workItem from="1613888030783" duration="1059000" />
+      <workItem from="1613888030783" duration="1833000" />
+      <workItem from="1614017185195" duration="3568000" />
     </task>
     <task id="LOCAL-00001" summary="5">
       <created>1613249781461</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613595226927</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="11">
+      <created>1613889241702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613889241702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +119,7 @@
     <MESSAGE value="8" />
     <MESSAGE value="9" />
     <MESSAGE value="10" />
-    <option name="LAST_COMMIT_MESSAGE" value="10" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
 </project>
