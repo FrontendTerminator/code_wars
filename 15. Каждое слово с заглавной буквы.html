@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    const str = "How can mirrors be real if our eyes aren't real"
+
+    function fun(str) {
+        let arr = str.split(" ")
+        let x = arr.map(s => {
+            let ns = ""
+            for (let i = 0; i < s.length; i++) {
+                if (s[0] === s[i]) {
+                    ns += s[0].toUpperCase()
+                } else {
+                    ns += s[i]
+                }
+            }
+            return  ns
+        })
+        return x.join(" ")
+    };
+
+    console.log(fun(str))
+</script>
+</body>
+</html>

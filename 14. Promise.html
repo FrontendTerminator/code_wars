@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function getNumber() {
+        //const promise = await (Math.random())
+        const promise = new Promise((resolve, reject) => {
+            //reject('some error')
+            setTimeout(() => {
+                return resolve(Math.random())
+            }, 2000)
+
+        })
+
+        return promise
+    }
+
+    //getNumber().then(n => console.log(n))
+
+    const repo = {
+        save(data) {
+            try {
+                localStorage.setItem("some-key", JSON.stringify(data))
+            } catch (error) {
+                return false
+            }
+            return true
+        },
+        saveAsync(data) {
+            const promise = new Promise((resolve, reject) => {
+                try {
+                    localStorage.setItem("some-key", JSON.stringify(data))
+                    resolve()
+                } catch (error) {
+                    reject(error)
+                }
+            })
+            return promise
+        },
+        read() {
+            const data = localStorage.getItem("some-key")
+            if (!data) {
+                return null
+            } else {
+                return JSON.parse(data)
+            }
+        },
+        readAsync() {
+            return new Promise((resolve, reject) => {
+                const data = localStorage.getItem("some-key")
+                if (!data) {
+                    reject(null)
+                } else {
+                    resolve(JSON.parse(data))
+                }
+            })
+        }
+    }
+
+    // const result = repo.save({name: "google.com"})
+    // console.log('SAVED')
+    // const data = repo.read()
+    // console.log(data)
+
+    // repo.saveAsync({name: "google.com"})
+    //     .then(() => console.log('SAVED'))
+    //     .catch((e) => console.warn('NOT SAVED' + e))
+
+    const run = async () => {
+        await repo.saveAsync({name: "google.com"})
+        console.log('SAVED')
+
+        const data = await repo.readAsync()
+        console.log(data)
+    }
+    run()
+
+    function wait(ms) {
+        return new Promise((resolve) => {
+            setTimeout(()=>{resolve()}, ms)
+        })
+    }
+
+    async function waiting() {
+        await wait(1000)
+        console.log(1)
+        await wait(2000)
+        console.log(2)
+        await wait(3000)
+        console.log(3)
+    }
+
+    waiting()
+
+</script>
+</body>
+</html>
