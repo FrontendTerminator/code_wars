@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28150364-7fc1-4fe7-a748-7dc8776ef796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14. Promise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15. Каждое слово с заглавной буквы.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16. Вернуть из массива строк и чисел только числа в массиве.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,9 @@
       <workItem from="1613888030783" duration="1833000" />
       <workItem from="1614017185195" duration="3590000" />
       <workItem from="1614067999672" duration="22000" />
-      <workItem from="1614270582418" duration="11610000" />
+      <workItem from="1614270582418" duration="11753000" />
+      <workItem from="1614325510215" duration="2243000" />
+      <workItem from="1614365290308" duration="1664000" />
     </task>
     <task id="LOCAL-00001" summary="5">
       <created>1613249781461</created>
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614021275671</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="15">
+      <created>1614283199857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614283199857</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
     <MESSAGE value="10" />
     <MESSAGE value="11" />
     <MESSAGE value="13" />
-    <option name="LAST_COMMIT_MESSAGE" value="13" />
+    <MESSAGE value="15" />
+    <option name="LAST_COMMIT_MESSAGE" value="15" />
   </component>
 </project>
