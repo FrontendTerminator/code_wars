@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function getSum( a,b ) {
+        if (a === b) return a
+        let result = 0
+        if (a < b) {
+            for (let i = a; i <= b; i++) {
+                result = i + result
+                console.log("i = " + i)
+                console.log("result = " + result)
+            }
+            return result
+        }
+        if (a > b) {
+            for (let i = b; i < a + 1; i++) {
+                result = i + result
+                console.log("i = " + i)
+                console.log("result = " + result)
+            }
+            return result
+        }
+    }
+
+    console.log(getSum(-1, 1))
+</script>
+</body>
+</html>

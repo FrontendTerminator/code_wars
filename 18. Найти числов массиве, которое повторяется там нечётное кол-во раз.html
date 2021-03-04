@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const arr = [20, 1, 1, 2, 2, 3, 3, 5, 5, 4, 20, 4, 5]
+
+    // function findOdd(A) {
+    //     return A.find(num => {
+    //         for (let i = 0; i < A.length; i++) {
+    //             let resArr = A.filter(n => n === num).length % 2
+    //             if (resArr !== 0) {
+    //                 return num
+    //             }
+    //         }
+    //     })
+    // }
+
+    function findOdd(A) {
+        for (let i = 0; i < A.length; i++) {
+            let x =  A.filter(n => n === A[i]).length % 2
+            if (x !== 0) return A[i]
+        }
+    }
+
+
+    let x = findOdd(arr)
+
+    console.log(x)
+</script>
+</body>
+</html>
