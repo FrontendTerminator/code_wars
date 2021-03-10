@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let x = 10
+
+    function digital_root(n) {
+        if (n === 0) return 0
+        if (n >= 10) {
+            let digits = n.toString().split('');
+            let realDigits = digits.map(Number)
+            let y = 0
+            console.log(realDigits)
+            for (let i = 0; i < realDigits.length; i++) {
+                y += realDigits[i]
+            }
+            if (y >= 10) {
+                return digital_root(y)
+            } else {
+                console.log(y)
+                return y
+            }
+        }
+    }
+
+    let result = digital_root(x)
+
+    console.log(result)
+
+</script>
+</body>
+</html>
