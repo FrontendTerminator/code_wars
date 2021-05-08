@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28150364-7fc1-4fe7-a748-7dc8776ef796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buble.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todolist-16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,7 +77,21 @@
       <workItem from="1615471806577" duration="682000" />
       <workItem from="1616268018216" duration="1403000" />
       <workItem from="1616313706160" duration="43000" />
-      <workItem from="1616703103027" duration="2737000" />
+      <workItem from="1616703103027" duration="3400000" />
+      <workItem from="1616841455000" duration="9610000" />
+      <workItem from="1617809986069" duration="2778000" />
+      <workItem from="1617869325849" duration="147000" />
+      <workItem from="1618070914613" duration="1594000" />
+      <workItem from="1618213265280" duration="1597000" />
+      <workItem from="1618298656267" duration="25000" />
+      <workItem from="1618298897801" duration="421000" />
+      <workItem from="1618299473254" duration="1497000" />
+      <workItem from="1618306229608" duration="2084000" />
+      <workItem from="1618314609610" duration="1748000" />
+      <workItem from="1618320449209" duration="919000" />
+      <workItem from="1618391119552" duration="19000" />
+      <workItem from="1619094751614" duration="2630000" />
+      <workItem from="1620497191449" duration="6845000" />
     </task>
     <task id="LOCAL-00001" summary="5">
       <created>1613249781461</created>
@@ -162,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616269148674</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="21">
+      <created>1616705931547</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616705931547</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +203,7 @@
     <MESSAGE value="18" />
     <MESSAGE value="19" />
     <MESSAGE value="20" />
-    <option name="LAST_COMMIT_MESSAGE" value="20" />
+    <MESSAGE value="21" />
+    <option name="LAST_COMMIT_MESSAGE" value="21" />
   </component>
 </project>
